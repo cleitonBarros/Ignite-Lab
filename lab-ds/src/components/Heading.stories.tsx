@@ -43,13 +43,13 @@ export const CustomComponent: StoryObj<HeadingProps> = {
     argTypes:{
         children:{
             table:{
-                disabled: true,
-            }
+                disable: true,
+            },
         },
         asChild: {
             table:{
-                disabled: true,
-            }
+                disable: true,
+            },
         }
     }
 }
